@@ -1,0 +1,41 @@
+/* accent color #2196F3 */
+/* headers color #212121 */
+/* main font color #757575 */
+/* poster background color #2F303A */
+/* our team background color #F5F4FA*/
+/* main background color #ffffff; */
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+:root{
+    --accent-color: #2196F3;
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --main-white-color: #ffffff;
+    --ourteam-background-color: #F5F4FA;
+    --footer-bg-color: #2F303A;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: var(--primary-text-color);
+}
+/* determin accent color */
+
+.accent{
+    color: var(--accent-color);
+}
+
+.header-contacts a:hover, 
+.navigation a:hover {
+    color: var(--accent-color);
+}
+
+.header-color{
+    color: var(--title-text-color);
+}
