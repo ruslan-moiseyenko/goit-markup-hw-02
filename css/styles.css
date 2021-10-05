@@ -121,6 +121,11 @@ nav a{
     color: var(--main-white-color);
 }
 
+.hero-btn:hover,
+.hero-btn.focus{
+    background-color: #188CE8;
+}
+
 /* advantages */
 
 .advantages{
@@ -175,7 +180,9 @@ nav a{
 footer{
     background-color: var(--footer-bg-color);
 }
-
+.address{
+    font-style: normal;
+}
 .address p{
     font-weight: 400;
     font-size: 14px;
