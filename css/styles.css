@@ -183,7 +183,9 @@ nav a{
 footer{
     background-color: var(--footer-bg-color);
 }
-
+.address{
+    font-style: normal;
+}
 .address p{
     font-style: normal;
     font-weight: 400;
