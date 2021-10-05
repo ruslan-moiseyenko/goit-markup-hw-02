@@ -24,6 +24,13 @@ font-family: 'Roboto', sans-serif; */
 
 body{
     color: var(--primary-text-color);
+    background-color: var(--main-white-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+button{
+    font-family: inherit;
 }
 /* determin accent color */
 
@@ -31,11 +38,183 @@ body{
     color: var(--accent-color);
 }
 
+
+
+/* setting the main font*/
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    color: var(--title-text-color);
+}
+
+
+/* header settings */
+
+
+header{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+header a{
+    text-decoration: none;
+}
+
+nav a{
+    color: var(--title-text-color);
+    
+
+}
+
+.header-contacts a{
+    color: var(--primary-text-color);
+}
+
 .header-contacts a:hover, 
-.navigation a:hover {
+.navigation a:hover,
+.header-contacts a:focus, 
+.navigation a:focus {
     color: var(--accent-color);
 }
 
-.header-color{
+.logo{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #000000;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+
+/* main settings */
+/* hero settings */
+.hero{
+    background-color: var(--footer-bg-color);
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.hero .slogan{
+    color: var(--main-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+
+.hero-btn{
+    font-size: 16px;
+    line-height: 1.88;
+    font-weight: 600;
+    background-color: var(--accent-color);
+    color: var(--main-white-color);
+}
+
+/* advantages */
+
+.advantages{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.advantages h3{
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.advantages p{
+    line-height: 1.71;
+}
+
+/* our-work*/
+.our-work > h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+/* our-team */
+
+.our-team > h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.our-team h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+}
+
+.our-team p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    background-color: var(--footer-bg-color);
+}
+
+.address p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--main-white-color)
+}
+.address a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*------- portfolio page -----------*/
+
+/* filter buttons */
+.btn-filter{
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.btn-filter:hover, 
+.btn-filter:focus{
+    color: var(--main-white-color);
+    background-color: var(--accent-color);
+}
+
+/* work gallery */
+
+.job-exaples a{
+    text-decoration: none;
+}
+
+.job-exaples p{
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.job-exaples h2{
+    font-size: 18px;
+    line-height: 2;
 }
