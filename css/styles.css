@@ -148,6 +148,9 @@ nav a{
 }
 
 /* our-team */
+.our-team{
+    background-color: var(--ourteam-background-color);
+}
 
 .our-team > h2{
     font-weight: 600;
