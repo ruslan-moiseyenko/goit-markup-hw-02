@@ -122,7 +122,7 @@ nav a{
 }
 
 .hero-btn:hover,
-.hero-btn.focus{
+.hero-btn:focus{
     background-color: #188CE8;
 }
 
@@ -181,7 +181,7 @@ footer{
     background-color: var(--footer-bg-color);
 }
 .address{
-    font-style: normal;
+    font-style: inherit;
 }
 .address p{
     font-weight: 400;
@@ -194,6 +194,7 @@ footer{
     font-size: 14px;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 /*------- portfolio page -----------*/
@@ -204,6 +205,7 @@ footer{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    font-style: inherit;
     text-align: center;
 }
 
